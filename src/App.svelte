@@ -51,24 +51,19 @@
 </style>
 
 <div class="container">
-  <!-- Profilkép -->
   <img src="./src/assets/szabolcs.jpg" alt="Profilkép" width="auto" height="150" style="border-radius: 50%; margin-bottom: 1rem;" />
 
-  <!-- Név -->
   <h1>Molnár Szabolcs</h1>
 
-  <!-- További mező -->
   <h2>SOB Esti</h2>
   <h2>Webfejlesztő</h2>
   <h3>Projectek:</h3>
   <a href="https://szabolcsmolnar82.github.io/autokalkulator/">Hatótáv Kalkulátor</a>
 
 
-  <!-- Számláló -->
   <div class="counter">
     Látogatások száma: {clickCount}
   </div>
 
-  <!-- Gomb a kattintáshoz -->
   <button on:click={handleClick}>Kattints ide!</button>
 </div>
