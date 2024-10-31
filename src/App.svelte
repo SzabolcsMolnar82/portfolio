@@ -1,23 +1,43 @@
+<div class="container">
+  <img src={profilkep.jpg} />
+
+  <h1>Molnár Szabolcs</h1>
+
+  <h2>SOB Esti</h2>
+  <h2>Webfejlesztő</h2>
+  <h3>Projectek:</h3>
+  <a href="https://szabolcsmolnar82.github.io/autokalkulator/">Hatótáv Kalkulátor</a>
+
+
+  <div class="counter">
+    Látogatások száma: {clickCount}
+  </div>
+
+  <button on:click={handleClick}>Kattints ide!</button>
+</div>
+
+
 <script>
-// @ts-nocheck
+  // @ts-nocheck
+  
+    import { onMount } from "svelte";
+    let clickCount = 0;
+  
+    // A kattintások számának mentése a localStorage-ba
+    onMount(() => {
+      clickCount = Number(localStorage.getItem("clickCount")) || 0;
+    });
+  
+    function handleClick() {
+      clickCount += 1;
+      localStorage.setItem("clickCount", clickCount);
+    }
+    import profilkep from './assets/szabolcs.jpg';
 
-  import { onMount } from "svelte";
-  let clickCount = 0;
-
-  // A kattintások számának mentése a localStorage-ba
-  onMount(() => {
-    clickCount = Number(localStorage.getItem("clickCount")) || 0;
-  });
-
-  function handleClick() {
-    clickCount += 1;
-    localStorage.setItem("clickCount", clickCount);
-  }
-</script>
+  </script>
+  
 
 <style>
-
-
   .container {
     text-align: center;
     padding: 2rem;
@@ -49,21 +69,3 @@
     cursor: pointer;
   }
 </style>
-
-<div class="container">
-  <img src="./src/assets/szabolcs.jpg" alt="Profilkép" width="auto" height="150" style="border-radius: 50%; margin-bottom: 1rem;" />
-
-  <h1>Molnár Szabolcs</h1>
-
-  <h2>SOB Esti</h2>
-  <h2>Webfejlesztő</h2>
-  <h3>Projectek:</h3>
-  <a href="https://szabolcsmolnar82.github.io/autokalkulator/">Hatótáv Kalkulátor</a>
-
-
-  <div class="counter">
-    Látogatások száma: {clickCount}
-  </div>
-
-  <button on:click={handleClick}>Kattints ide!</button>
-</div>
