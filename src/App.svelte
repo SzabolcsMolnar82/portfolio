@@ -16,16 +16,7 @@
 </script>
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #2A3439;
-    color: #AAA9AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-  }
+
 
   .container {
     text-align: center;
@@ -39,18 +30,6 @@
   h1, h2 {
     margin: 0.5rem 0;
     color: #848689;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-  }
-
-  td {
-    border: 1px solid #848689;
-    padding: 8px;
-    height: 40px;
   }
 
   .counter {
