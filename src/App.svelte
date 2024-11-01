@@ -1,5 +1,5 @@
 <div class="container">
-  <img src={profilkep.jpg} />
+  <!--<img src={profilkep.jpg} />-->
 
   <h1>Molnár Szabolcs</h1>
 
@@ -7,6 +7,8 @@
   <h2>Webfejlesztő</h2>
   <h3>Projectek:</h3>
   <a href="https://szabolcsmolnar82.github.io/autokalkulator/">Hatótáv Kalkulátor</a>
+  <br>
+  <a href="https://szabolcsmolnar82.github.io/counter/">Basic Számláló Svelte használatával</a>
 
 
   <div class="counter">
@@ -32,7 +34,7 @@
       clickCount += 1;
       localStorage.setItem("clickCount", clickCount);
     }
-    import profilkep from './assets/szabolcs.jpg';
+      //  import profilkep from './assets/szabolcs.jpg';
 
   </script>
   
