@@ -9,6 +9,8 @@
   <a href="https://szabolcsmolnar82.github.io/autokalkulator/">Hatótáv Kalkulátor</a>
   <br>
   <a href="https://szabolcsmolnar82.github.io/counter/">Basic Számláló Svelte használatával</a>
+  <br>
+  <a href="https://szabolcsmolnar82.github.io/temperature-converter-svelte/">Hőmérséklet Átváltó Svelte használatával</a>
 
 
   <div class="counter">
