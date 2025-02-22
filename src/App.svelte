@@ -6,6 +6,10 @@
   <h2>SOB Esti</h2>
   <h2>Webfejlesztő</h2>
   <h3>Projectek:</h3>
+
+
+  <a href="https://szabolcsmolnar82.github.io/szerszamgep-webshop/">Szerszamgép App 2025.02.22 beadandó</a>
+
   <a href="https://szabolcsmolnar82.github.io/autokalkulator/">Hatótáv Kalkulátor</a>
   <br>
   <a href="https://szabolcsmolnar82.github.io/counter/">Basic Számláló Svelte használatával</a>
